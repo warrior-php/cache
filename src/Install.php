@@ -17,7 +17,7 @@ class Install
     protected static array $pathRelation = [
         'config' => [
             'path'  => 'config',
-            'files' => ['redis.php'],
+            'files' => ['cache.php'],
         ],
     ];
 
