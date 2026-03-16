@@ -1,0 +1,21 @@
+{
+  "name": "warrior-php/cache",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.3",
+    "symfony/cache": "^6.0 || ^7.0",
+    "psr/simple-cache": "^3.0"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Webman\\Cache\\": "src",
+      "support\\": "src/support"
+    }
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^2.1 || dev-master"
+  }
+}
